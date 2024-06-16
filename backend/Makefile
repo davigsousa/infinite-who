@@ -4,3 +4,6 @@ dev:
 
 start:
 	cargo run
+
+db-up:
+	docker-compose up -d
